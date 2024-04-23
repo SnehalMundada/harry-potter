@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MovieService } from '../services/movie.service';
 import { Movie } from '../models/movie';
-import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-movie-list',
@@ -14,7 +14,7 @@ export class MovieListComponent implements OnInit {
   searchTitle: string = '';
   searchYear: string = '';  
 
-  constructor(private movieService: MovieService, private router: Router) {}
+  constructor(private movieService: MovieService) {}
 
   ngOnInit(): void {
 
