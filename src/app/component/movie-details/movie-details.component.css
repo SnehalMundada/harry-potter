@@ -1,0 +1,74 @@
+img{
+  height: 100%;
+  border-color: black;
+}
+.container {
+  max-width: 150vh;
+  /* max-width: 1000px; */
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 20%;
+}
+
+.image-container .col-6 {
+  flex: 1;
+  min-width: 0;
+}
+
+.image-container img {
+  width: 10rem;
+  height: auto;
+}
+
+.table {
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+
+h2, h3, th, td, p {
+  font-family: 'monospace';
+  display: table-cell;
+}
+
+h1 {
+    font-size: 1.7em;
+    padding: 70px;
+    margin: auto;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+}
+
+
+strong {
+ gap: 20px;
+ font-family:'monospace';
+ color: black;
+}
+.details-button {
+  background-color: #d7d9db; /* Blue button */
+  color: #000; /* White text */
+}
+.SummaryText{
+  width: 80%;
+  margin-top: -18%;
+  margin-left: 17%;
+  color: #000;
+}
+table th {
+  text-align: right;
+  background: #d7d9db;
+  color: black;
+  border: 1px solid gray;
+}
+table td {
+  text-align: left;
+  background: #d7d9db;
+  color: black;
+  border: 1px solid gray;
+  border-top: 1px solid grey !important;
+}

@@ -1,0 +1,31 @@
+<div class="container">
+    <h5>Filters</h5>
+    <div class="alignFilter">
+            <span >Title</span>
+          <input type="text" [(ngModel)]="searchTitle" (input)="searchByFilter()">&nbsp;
+            <span>Release Year</span>
+          <input type="text" [(ngModel)]="searchYear" (input)="searchByFilter()" >
+          </div>
+
+  <div>
+    <ul>
+      <li *ngFor="let movie of filteredMovies">
+        <div class="header">
+
+                <h5 class="movie-card-title">{{ movie?.title }}</h5>
+                <button class="details-button" [routerLink]="['/movies', movie.id]">
+                  Details
+                </button>  
+                </div>          
+              <div class="subheader">
+               Release Date: {{ movie?.release_date }} &nbsp;
+               Budget: {{ movie?.budget | budget  }} &nbsp;
+               Duration: {{ movie?.duration | duration }} &nbsp;
+        </div>
+        <hr>
+        </li>
+        </ul>
+        
+  </div>
+</div>
+

@@ -1,0 +1,62 @@
+.navbar .container{
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: aliceblue;
+  max-width: 150vh;
+}
+
+
+input {
+  display: flex;
+  background: #d7d9db;
+  color: #000;
+
+}
+.alignFilter{
+  display: flex;
+}
+.details-button {
+  background-color: #d7d9db; /* Blue button */
+  color: #000; /* White text */
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between; /* Align items on each end of the flex container */
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+
+.details-button {
+  background-color: #d7d9db; /* Blue button */
+  color: #000; /* White text */
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  float: right;
+}
+.subheader{
+  width: 200%;
+  display: flex;
+  font-size: small;
+  margin-left: 1%;
+  color: #000;
+  margin-top: -1%;
+}
+span{
+  color: #000;
+}
+h5{
+  color: #000;
+}
+li{
+  color: #000;
+}
+
